@@ -1,0 +1,21 @@
+h1{
+    background-color:rgb(17, 105, 79); color:#cafce7;
+}
+body{
+    background-color: rgb(178, 209, 230);
+}
+.content{
+    font-size: 20px;font-family:Arial, Helvetica, sans-serif
+}
+.table{
+    font-size:20px; background-color: rgb(226, 252, 255);font-family:Arial, Helvetica, sans-serif;
+}
+#odd{
+    background-color:rgb(0, 172, 143)
+}
+#even{
+    background-color:#4affb4
+}
+.table-headers{
+    font-family: 'Times New Roman', Times, serif;
+}
