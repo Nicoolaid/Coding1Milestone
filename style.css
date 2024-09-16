@@ -1,4 +1,4 @@
-h1{
+li h1{
     background-color:rgb(17, 105, 79); color:#cafce7;
 }
 body{
@@ -18,4 +18,38 @@ body{
 }
 .table-headers{
     font-family: 'Times New Roman', Times, serif;
+}
+.header h1{
+    color:red;
+    font-size:40px;
+    font-family:"Fantasy";
+    text-align:center;
+    background-color:rgb(5, 69, 88);
+}
+@keyframes fontcolor{
+    from{
+        color:red
+    }
+    to{
+        color:skyblue
+    }
+}
+.header h1:hover{
+    animation: fontcolor 1s forwards
+}
+main img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+main p{
+    text-align:center;
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+span{
+    font-style:italic;
+}
+footer{
+    font-size:20px
 }
