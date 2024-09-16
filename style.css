@@ -22,7 +22,7 @@ body{
 .header h1{
     color:red;
     font-size:40px;
-    font-family:"Fantasy";
+    font-family:Fantasy;
     text-align:center;
     background-color:rgb(5, 69, 88);
 }
