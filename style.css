@@ -1,55 +1,58 @@
-li h1{
-    background-color:rgb(17, 105, 79); color:#cafce7;
+#logoimg{
+    height:100%;
 }
-body{
-    background-color: rgb(178, 209, 230);
+
+#logoimgdiv{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
-.content{
-    font-size: 20px;font-family:Arial, Helvetica, sans-serif
+
+#navbar{
+    background-color: #7f6154;
+    
 }
-.table{
-    font-size:20px; background-color: rgb(226, 252, 255);font-family:Arial, Helvetica, sans-serif;
+
+#navitem:hover{
+    background-color: #5e483f;
 }
-#odd{
-    background-color:rgb(0, 172, 143)
+
+#navitem{
+    font-family:"Bodoni Moda SC" ;
+    color: white;
 }
-#even{
-    background-color:#4affb4
+
+#carouselExample{
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -100%;
 }
-.table-headers{
-    font-family: 'Times New Roman', Times, serif;
+
+#film{
+    z-index: 20;
+    position: relative;
+    height: 40vw; 
+    top: .3vw;
+    left: 10vw;
 }
-.header h1{
-    color:red;
-    font-size:40px;
-    font-family:Fantasy;
-    text-align:center;
-    background-color:rgb(5, 69, 88);
+
+#film2{
+    z-index: 20;
+    position: relative;
+    float: right;
+    height: 40vw;
+    top: .3vw;
+    right: 10vw;
 }
-@keyframes fontcolor{
-    from{
-        color:red
-    }
-    to{
-        color:skyblue
-    }
-}
-.header h1:hover{
-    animation: fontcolor 1s forwards
-}
-main img{
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-main p{
-    text-align:center;
-    font-size:30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-span{
-    font-style:italic;
-}
-footer{
-    font-size:20px
+
+.carouseldiv{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    position:relative;
+    top:-41vw;
 }
