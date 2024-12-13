@@ -4,46 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Polaroid Camera</title>
-</head>
-<body>
-    <div class="header">
-        <h1>Polaroid Camera</h1>
+    <title>Milestone Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  </head>
+<body style="background-color: #dcba9e;">
+    <div class="container-fluid w-100" style="background-color: #eadecb; height: 6vw;" id="logoimgdiv">
+        <img src="img/logo.png" alt="" id="logoimg">
     </div>
-    <div>
-        <main>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Polaroid_Land_Camera_Model_95_-_MIT_Museum_-_DSC03766.JPG"height="300px" alt="First Polaroid Camera">
-            <p>The first polaroid camera, named the Model 95, was invented by Edwin H. Land in 1948. At the time, it only produced sepia-toned photographs. In order to view a photo, the photographer had to wait 60 seconds after taking a photo before peeling off the top film to fully see the image. This camera is known to be the stepping stone to instant photography.</p>
-        </main>
-    </div>
-    <div>
-        <footer>
+
+    <ul class="nav nav-tabs sticky-top" id="navbar">
+        <li class="nav-item" >
+          <a class="nav-link "id="navitem" aria-current="page" href="#" >Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="navitem" href="polaroid.html">Polaroid Camera</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="navitem" href="compact-digital.html">Compact Digital Camera</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="navitem" href="dslr.html">DSLR Camera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navitem" href="phone.html">Phone Camera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navitem" href="gopro.html">GoPro Camera</a>
+          </li>
+      </ul>
+      
+      <div class="container-fluid p-5">
+        <img src="img/polaroid.jpg" style="width: 40vw; float: left; padding-right: 2vw;" alt="">
+      <p>
+        The first polaroid camera, named the Model 95, was invented in 1948. Its creator, Edwin H. Land, first introduced his creation to the public through a meeting in New York City.
+        At the time, the camera only produced sepia-toned photographs. In order to view a photo, the photographer had to wait 60 seconds before peeling off the top film to fully see the image. Once this camera hit the market, it became a hit. People were amazed at the ability to produce an image almost instantly. Although the device required tedious handling from the photographers, its system went to become the first stepping stone to instant photography.
+        
+        </p>
+      </div>
+    
+
+  
+        <footer style="float: inline-end;"> 
            Source: Edwin Land and Instant Photography - American Chemical Society.” <span>American Chemical Society</span>, <a href="https://www.acs.org/education/whatischemistry/landmarks/land-instant-photography.html#:~:text=The%20first%20Polaroid%20camera%2C%20called,cameras%20sold%20out%20in%20minutes.">www.acs.org/education/whatischemistry/landmarks/land-instant-photography.html#:~:text=The%20first%20Polaroid%20camera%2C%20called,cameras%20sold%20out%20in%20minutes.</a>
         </footer>
-    </div>
-    <table border="2" class="table">
-        <tr class="table-headers">
-            <th id="odd"><a href="polaroid.html">Polaroid Camera</a></th>
-            <th id="even"><a href="compact-digital.html">Compact Digital Camera</a></th>
-            <th id="odd"><a href="dslr.html">DSLR Camera</a></th>
-            <th id="even"><a href="phone.html">Phone Camera</a></th>
-            <th id="odd"><a href="gopro.html">GoPro Camera</a></th>
-        </tr> 
-        <tr>
-            <td>Model 95</td>
-            <td>FUJIX DS-1F</td>
-            <td>Kodak DCS 100 </td>
-            <td>Kyocera VP-210</td>
-            <td>Hero 35mm</td>
-        </tr>
-        <tr>
-            <td>1948</td>
-            <td>1988</td>
-            <td>1991</td>
-            <td>1999</td>
-            <td>2004</td>
-        </tr>
-       
-    </table>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+        
